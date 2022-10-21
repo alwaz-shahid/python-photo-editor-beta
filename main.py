@@ -11,8 +11,10 @@ root.title("Photo Editor App")  # Set the title of the window
 root.geometry("640x640")  # Set the size of the window
 
 
-def select():  # Load images from the computer
+def select():
+    # Load images from the computer
     global img_path, img
+    #globals
     img_path = filedialog.askopenfilename(initialdir=os.getcwd())
     img = Image.open(img_path)
     img.thumbnail((350, 350))
