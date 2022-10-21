@@ -6,6 +6,7 @@ from PIL import Image, ImageTk, ImageFilter, ImageEnhance, ImageOps
 import os
 
 # Create a Tkinter window
+#commit
 root = Tk()  # Create a window
 root.title("Photo Editor App")  # Set the title of the window
 root.geometry("640x640")  # Set the size of the window
